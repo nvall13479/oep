@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  background-color: #41313d;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: aliceblue;
+}
+
+#lightgallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+#lightgallery a img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+#lightgallery a img:hover {
+  transform: scale(1.05);
+}
